@@ -1,0 +1,36 @@
+.accordion {
+    background: var(--color-light);
+    padding: 1.5rem;
+    border: 2px solid transparent;
+    display: grid;
+    gap: 10px;
+    border-radius: var(--border-radius-1);
+    transition: var(--transition);
+}
+
+.accordion:hover {
+    background: transparent;
+    border-color: var(--color-black);
+    transform: translateY(-0.5rem);
+}
+
+.accordion-ques {
+    transition: all 1s;
+}
+
+
+.accordion.light {
+    background: var(--color-light);
+}
+
+.accordion.light:hover {
+    background: transparent;
+    border-color: var(--color-light);
+}
+
+@media screen and (max-width: 600px) {
+    .accordion {
+        padding: 1.2rem;
+    }
+}
+

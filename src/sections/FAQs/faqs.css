@@ -1,3 +1,10 @@
-.accordian-box {
-    display: flex;
+.faqs {
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.faqs h2 {
+    color: blue;
 }
